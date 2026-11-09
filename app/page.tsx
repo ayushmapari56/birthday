@@ -8,11 +8,12 @@ import { Section } from "lucide-react";
 import DoodleBackgroundDemo from "@/components/DoodleBg";
 import FloatingNotes from "@/components/Butterfly";
 import ShowtimeCountdown from "@/components/Curtain";
+import PasswordGate from "@/components/PasswordGate";
 
 
 export default function Home() {
   return (
-
+    <PasswordGate>
        <ShowtimeCountdown
       
       // change this date to the desired countdown target date
@@ -123,7 +124,7 @@ export default function Home() {
     </div>
 
     </ShowtimeCountdown>
-
+    </PasswordGate>
     
   );
 }

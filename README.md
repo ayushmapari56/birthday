@@ -2,6 +2,8 @@
 
 A beautiful, premium, and interactive 3D birthday wish website built with Next.js, React, Tailwind CSS, Framer Motion, and Three.js. It features interactive countdown screens, gorgeous 3D card galleries, floating captions, draggable polaroid cards, and custom music.
 
+The home page starts with a birthday password screen. Enter any non-empty password (or use the number pad) to open the surprise.
+
 ---
 
 ## 🚀 How to Run the Project (For Beginners)
